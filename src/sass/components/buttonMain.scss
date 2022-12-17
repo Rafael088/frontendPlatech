@@ -1,0 +1,18 @@
+.contBtnMain{
+    width: 200px;
+    height: 50px;
+    background-color: #5BC2D9;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid #5BC2D9;
+        background-color: transparent;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
