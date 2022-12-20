@@ -1,0 +1,142 @@
+.contAllies{
+    width: 100%;
+    height: 100%;
+    background-color: #101728;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3{
+        font-size: 30px;
+        color: #55B3D9;
+    }
+    .contBody{
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .contName{
+            width: 100%;
+            height: 13%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            .cardName{
+                width: 200px;
+                height: 40px;
+                background-color: aliceblue;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .contCards{
+            width: 100%;
+            height: 50%;
+            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            .card{
+                width: 300px;
+                height: 300px;
+                                
+                background: rgba(255, 255, 255, 0.2);
+                border: 1px solid #FFFFFF;
+                border-radius: 25px;
+                .contCardHeader{
+                    width: 100%;
+                    height: 30%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+
+                        background-color: #FFFFFF;
+                    }
+                    b{
+                        font-size: 14px;
+                        color: white;
+                    }
+                }
+                .contCardBody{
+                    width: 100%;
+                    height: 50%;
+                    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+                    p{
+                        font-size: 17px;
+                        color: #FFFFFF;
+                        text-align: center;
+                    }
+                }
+                .contCardFooter{
+                    width: 100%;
+                    height: 20%;
+                    
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    b{
+                        font-size: 17px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .contFooter{
+            width: 60%;
+            height: 17%;
+            border-bottom: 1px solid white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            b{
+                font-size: 20px;
+                color: white;
+                text-align: center;
+            }
+            .bord{
+                width: 60%;
+                margin-top: 40px;
+                border-bottom: 1px solid white;
+            }
+            .contFilter{
+                width: 100%;
+                height: 80%;
+                background-color: #55B3D9;
+                border-radius: 50%;
+                filter: blur(40px);
+            }
+        }
+        .contPass{
+            width: 60%;
+            height: 15%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            .contImg{
+                width: 40px;
+                height: 40px;
+                background-color: #FFFFFF;
+                border-radius: 50%;
+            }
+        }
+    }
+}

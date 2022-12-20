@@ -3,15 +3,14 @@ function NavBar() {
     return ( 
         <div className="contNavBar">
             <a href='/'>
-                Emprende
-            </a>
-            <a href='/'>
                 Servicios
             </a>
+            
+            <img src={imgLogo} alt="Platech"/>
+            
             <a href='/'>
                 Contacto
             </a>
-            <img src={imgLogo} alt="Platech"/>
         </div>
      );
 }

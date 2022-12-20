@@ -4,15 +4,16 @@ import imgTwo from '../assets/robot-hand-finger-ai-background-technology-graphic
 
 function PresetOne({rutaIMg, text, title, textBtn, position}) {
     return ( 
-        <section className={position === 1?"contPreset left":"contPreset right"} id="presetOne">
-            <div className="contImg">
-                
-            </div>
-            <img className={position ===1 ? "img left": "img right"} src={position === 1 ? imgOne:imgTwo} alt={title}/>
-            <div className="contBody">
-                <h3>{title}</h3>
-                <p>{text}</p>
-                <ButtonMain text={textBtn}/>
+        <section className="contPreset" id="presetOne">
+            <div className={position === 1? "contContent rigth": "contContent left"}>
+                <div className="contImg">
+                    <img className="img" src={position === 1 ? imgOne:imgTwo} alt={title}/>
+                </div>
+                <div className="contBody">
+                    <h3>{title}</h3>
+                    <p className="text">{text}</p>
+                    <ButtonMain text={textBtn}/>
+                </div>
             </div>
         </section>
      );
