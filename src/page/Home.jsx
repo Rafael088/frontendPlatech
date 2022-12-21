@@ -1,4 +1,6 @@
 import Allies from "../components/Allies";
+import Footer from "../components/Footer";
+import Form from "../components/Form";
 import NavBar from "../components/NavBar"
 import Services from "../components/Services";
 import PresetOne from '../page/PresetOne'
@@ -19,6 +21,8 @@ function Home() {
         />
         <Allies/>
         <Services/>
+        <Form/>
+        <Footer/>
     </section>
   );
 }
