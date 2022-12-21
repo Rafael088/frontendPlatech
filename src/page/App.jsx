@@ -12,6 +12,10 @@ function App() {
           text="Utiliza la industria 4.0  para digitalizar tu empresa o negocio."
             textBtn="Conectar"
           />
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 877278f37f6cafad5f201999c8bf96afb226d001
     </section>
   );
 }

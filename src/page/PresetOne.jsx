@@ -10,7 +10,11 @@ function PresetOne({rutaIMg, text, title, textBtn, position}) {
                 <div className="contImg">
                     <img className="img" src={position === 1 ? imgOne:imgTwo} alt={title}/>
                 </div>
+<<<<<<< HEAD
                 <div className="contBody" >
+=======
+                <div className="contBody">
+>>>>>>> 877278f37f6cafad5f201999c8bf96afb226d001
                     <h3>{title}</h3>
                     <p className="text">{text}</p>
                     <ButtonMain text={textBtn}/>

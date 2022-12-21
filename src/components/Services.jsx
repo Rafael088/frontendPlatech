@@ -1,5 +1,6 @@
 import Cards from "./Cards";
 import img1 from '../assets/sara-kurfess-6lcT2kRPvnI-unsplash.jpg'
+<<<<<<< HEAD
 import img2 from '../assets/jason-leung-HBGYvOKXu8A-unsplash.jpg'
 import img3 from '../assets/antonio-janeski-CHVTt0aGbx0-unsplash.jpg'
 import img4 from '../assets/luke-chesser-JKUTrJ4vK00-unsplash.jpg'
@@ -16,6 +17,17 @@ function Services() {
     }, [])
     return ( 
         <div className="contServices">
+=======
+
+import img2 from '../assets/jason-leung-HBGYvOKXu8A-unsplash.jpg'
+
+import img3 from '../assets/antonio-janeski-CHVTt0aGbx0-unsplash.jpg'
+
+import img4 from '../assets/luke-chesser-JKUTrJ4vK00-unsplash.jpg'
+function Services() {
+    return ( 
+        <section className="contServices" id="services" >
+>>>>>>> 877278f37f6cafad5f201999c8bf96afb226d001
             <h3>Nuestros Servicios</h3>
             <div className="contBody">
                 <Cards text="Hacemos paginas modernas para comercio electrónico o blog de información." title="Página Web" img={img4}/>
@@ -28,7 +40,11 @@ function Services() {
                 <Cards text="Creamos y entrenamos Inteligencia Artificial para su aplicabilidad " title="Inteligencia Artificial" img={img2}/>
                 <Cards text="Creamos soluciones a problemas con Industria 4.0 dentro de las empresas" title="Soluciones" img={img3}/>
             </div>
+<<<<<<< HEAD
         </div>
+=======
+        </section>
+>>>>>>> 877278f37f6cafad5f201999c8bf96afb226d001
      );
 }
 

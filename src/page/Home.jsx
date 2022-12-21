@@ -1,9 +1,17 @@
 import Allies from "../components/Allies";
+<<<<<<< HEAD
 import NavBar from "../components/NavBar"
 import Services from "../components/Services";
 import PresetOne from '../page/PresetOne'
 
 
+=======
+import Footer from "../components/Footer";
+import Form from "../components/Form";
+import NavBar from "../components/NavBar"
+import Services from "../components/Services";
+import PresetOne from '../page/PresetOne'
+>>>>>>> 877278f37f6cafad5f201999c8bf96afb226d001
 function Home() {
   return (
     <section className="Home" id='home'>
@@ -21,6 +29,11 @@ function Home() {
         />
         <Allies/>
         <Services/>
+<<<<<<< HEAD
+=======
+        <Form/>
+        <Footer/>
+>>>>>>> 877278f37f6cafad5f201999c8bf96afb226d001
     </section>
   );
 }
