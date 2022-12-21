@@ -10,10 +10,7 @@ function App() {
           text="Utiliza la industria 4.0  para digitalizar tu empresa o negocio."
             textBtn="Conectar"
           />
-        <PresetOne position={1} title="¿Eres emprendedor?" 
-        text='Te brindamos la mejor tecnología para apoyarte en tu crecimiento.'
-        textBtn="Conocer Más"
-        />
+        
     </section>
   );
 }

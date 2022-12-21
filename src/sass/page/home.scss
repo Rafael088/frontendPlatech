@@ -2,9 +2,13 @@
 .Home{
     width: 100%;
     height: 100vh;
+    overflow: auto;
+    background-image: url('../../assets/19406375.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     .contBody{
         width: 100%;
-        height: 80%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -15,6 +19,33 @@
             font-size: 40px;
             width: 30%;
             margin-bottom: 10%;
+            text-align: center;
         }
     }
+}
+.Home::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: #3d3d3d;
+}
+
+.Home::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.Home::-webkit-scrollbar-button:increment,.contHome::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.Home::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.Home::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+.Home::-webkit-scrollbar-track {
+    border-radius: 10px;  
 }

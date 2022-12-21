@@ -2,16 +2,15 @@ import imgLogo from '../assets/platech2.png'
 function NavBar() {
     return ( 
         <div className="contNavBar">
-            <a href='/'>
-                Emprende
-            </a>
-            <a href='/'>
+            <a href='#services'>
                 Servicios
             </a>
-            <a href='/'>
+            
+            <img src={imgLogo} alt="Platech"/>
+            
+            <a href='#contact'>
                 Contacto
             </a>
-            <img src={imgLogo} alt="Platech"/>
         </div>
      );
 }
