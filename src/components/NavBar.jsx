@@ -1,14 +1,16 @@
 import imgLogo from '../assets/platech2.png'
+
+
 function NavBar() {
     return ( 
         <div className="contNavBar">
-            <a href='/'>
+            <a href='#services'>
                 Servicios
             </a>
             
             <img src={imgLogo} alt="Platech"/>
             
-            <a href='/'>
+            <a href='#contact'>
                 Contacto
             </a>
         </div>

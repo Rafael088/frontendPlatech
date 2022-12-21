@@ -1,12 +1,19 @@
 import Cards from "./Cards";
 import img1 from '../assets/sara-kurfess-6lcT2kRPvnI-unsplash.jpg'
-
 import img2 from '../assets/jason-leung-HBGYvOKXu8A-unsplash.jpg'
-
 import img3 from '../assets/antonio-janeski-CHVTt0aGbx0-unsplash.jpg'
-
 import img4 from '../assets/luke-chesser-JKUTrJ4vK00-unsplash.jpg'
+
+
+
+import React, {useEffect} from "react";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function Services() {
+    useEffect (()=> {
+        AOS.init({})
+    }, [])
     return ( 
         <div className="contServices">
             <h3>Nuestros Servicios</h3>

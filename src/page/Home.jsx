@@ -2,10 +2,12 @@ import Allies from "../components/Allies";
 import NavBar from "../components/NavBar"
 import Services from "../components/Services";
 import PresetOne from '../page/PresetOne'
+
+
 function Home() {
   return (
     <section className="Home" id='home'>
-        <NavBar/>
+        <NavBar />
         <div className="contBody">
             <h1>Nueva generación de inteligencia</h1>
         </div>

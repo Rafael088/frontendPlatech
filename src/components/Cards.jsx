@@ -1,6 +1,8 @@
 import ButtonMain from "./ButtonMain";
 
+
 function Cards({text, img, title}) {
+    
     return ( 
         <div className="contCard">
             <div className="contCardHeader">

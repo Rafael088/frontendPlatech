@@ -1,8 +1,10 @@
-
 import Home from "./Home";
 import PresetOne from "./PresetOne";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className="App">
         <Home/>
@@ -10,7 +12,6 @@ function App() {
           text="Utiliza la industria 4.0  para digitalizar tu empresa o negocio."
             textBtn="Conectar"
           />
-        
     </section>
   );
 }
